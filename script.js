@@ -5,10 +5,11 @@ var upperCaseChar = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",
 var numericChar = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 var specialChar = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "=", "'", "{", "}", "[", "]", "|", ";", ":", "?", "<", ">", "/", "."];
 
-var allChar = [];
+
 
 // click generate psswd button (make active) presensted with series of prompts for pswd criteria 
 function generatePassword() {
+  var allChar = [];
   var password = "";
   var userinput = window.prompt(" How many characters would you like your password? 8-128")
   console.log(userinput)
@@ -44,31 +45,20 @@ function generatePassword() {
     }
     console.log(allChar)
   }
-    
+  //for Lopp
+    for (i = 0; i < allChar; i++){
+      console.log("The password is" + allChar[i] + ".")
+    }
+  //pick random charrater
+    var password = Math.random() * (allChar) ;
+    var generatePassword = allChar[index];
     //select random characters from allChar to create your random password
     
-    
-
-    //for Lopp
-    //pick random charrater
-    //add random chracter to password var
+     //add random chracter to password var
   
 
   return password;
 }
-
-// I am prompted for password criteria: 8-128 charachters length, what typer of char upper, lower, numeric and/ or special characters
-
-
-
-
-// when I answer each prompt individually  my input should be validated and at least one character type should be selected 
-
-
-
-
-// when all prompts are answered and password  password is generated that matches the selected criteria when password is generated 
-
 
 //The password is either displayed in alert or on the page 
 

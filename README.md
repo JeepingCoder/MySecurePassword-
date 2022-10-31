@@ -1,18 +1,18 @@
 # MySecurePassword
-Password Regenerator 
 
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+My Secure Password 
+
+My Secure Password was assignment given to me in my coding bootcamp class. This project was aimed to be able to generate the user a random password after the user has entered the criteria: how many characters 8-128, would the user like to use lowercase and/or uppercase characters, would the user like to use numbers, and would the user like to use special characters. I used given HTML, CSS and then had to code the program in JavaScript
+
+I faced many challenges in this project mostly from being so green in javascript. But with trial error, patience and tutor help I was able to figure out the project. 
+
+To run the password generator just visit:
+https://jeepingcoder.github.io/MySecurePassword/
+
+I was helped in developing this project with code given to me by our UNCC coding bootcamp, my teacher Andrew Bautista, mulptiple teacher's assistants, and my tutor Trinh Nguyen.
+
+No license used in this project. 
+
+
+
+ ../../Desktop/Screen%20Shot%202022-10-31%20at%202.13.55%20PM.png
