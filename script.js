@@ -29,6 +29,12 @@ function generatePassword() {
     var userNumCase = window.confirm (" Would you like to use numbers? ");
     var userSpecChar = window.confirm (" Would you like to use special characters? ");
 
+    // if statement to correct issue if no information is added.
+
+    if(!userLowCase && !userUpCase && !userNumCase && !userSpecChar){
+      alert("You must select at least one") 
+      return null;
+    }
     //console logged user input to see if criteria is pushing through script correctly.
     console.log(userLowCase, userUpCase, userNumCase, userSpecChar)
     if(userLowCase){
@@ -49,7 +55,7 @@ function generatePassword() {
     }
     console.log(allChar)
 
-    //if(allChar === )
+    
   }
   //for Loop to start math for come up with random password using user
     for (var i = 0; i < userinput; i++){
@@ -59,8 +65,7 @@ function generatePassword() {
     var randomCharVal = allChar[randomIndex];
   //pick random charrater
    //select random characters from allChar to create your random password
-   // var password = Math.random() * (allChar.length);
-    //var generatePassword = allChar[password];
+  
 
     password += randomCharVal
    
