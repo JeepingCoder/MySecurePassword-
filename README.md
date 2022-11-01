@@ -7,7 +7,7 @@ My Secure Password was assignment given to me in my coding bootcamp class. This 
 I faced many challenges in this project mostly from being so green in javascript. But with trial error, patience and tutor help I was able to figure out the project. 
 
 To run the password generator just visit:
-https://jeepingcoder.github.io/MySecurePassword/
+https://jeepingcoder.github.io/MySecurePassword-/
 
 I was helped in developing this project with code given to me by our UNCC coding bootcamp, my teacher Andrew Bautista, mulptiple teacher's assistants, and my tutor Trinh Nguyen.
 
